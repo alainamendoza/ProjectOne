@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(251, 250, 227);
+    color: #3c131c;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 125%;
+    margin-bottom: 5%
+}
+
+#logo {
+    width: 4%;
+}
+
+header {
+    background: #E4E586;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: .0125em;
+    /* background-color: antiquewhite; */
+    align-self: end;
+}
+
+header h3 {
+    margin: 0;
+}
+
+header nav a {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c131c;
+    text-align: right;
+}
+
+/* a:hover {
+    text-decoration: underline;
+}
+
+nav a[href="inspiration.html"] {
+    text-decoration: none;
+} */
+
+a:hover {
+    font-weight: bold;
+}
+
+nav a[href="inspiration.html"]:hover {
+    font-weight: normal;
+}
+
+
+
+.container {
+    /* background-color: #730202; */
+    text-align: center;
+    color: #F2F2F2;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 4%;
+    padding-bottom: 1.5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    margin-right: 5%;
+    margin-left: 5%;
+
+    width: 90%;
+    padding-bottom: 10%;
+    /* background: #FFFCD7; */
+}
+
+
+article {
+    text-align: center;
+    /* border: 1px dashed red; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 10px;
+}
+
+article img {
+    background-color: antiquewhite;
+    width: 100%;
+
+    /* height: auto; */
+}
+
+
+section h2 {
+    text-align: center;
+    padding: 1.5%;
+}
+
+section h4 {
+    text-align: left;
+    padding: 1.5%;
+}

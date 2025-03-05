@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 125%;
+    margin-bottom: 10%
+}
+
+#logo {
+    width: 4%;
+}
+
+header {
+    background: #E4E586;
+}
+
+header h3 {
+    margin: 0;
+}
+
+header nav a {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c131c;
+    text-align: right;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+nav a[href="index.html"]:hover {
+    font-weight: normal;
+}
+
+h4 a:hover {
+    color: black;
+}
+
+body {
+    background-color: rgb(251, 250, 227);
+    color: #3c131c;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    align-items: left;
+    padding-bottom: 3%;
+
+    font-size: 30px;
+    /* text-align: left; */
+    letter-spacing: .0125em;
+    /* background-color: orange; */
+    align-self: end;
+    /* padding: 4%; */
+}
+
+/* h2 {
+    text-align: center;
+    align-items: left;
+    padding-bottom: 1.5%;
+} */
+
+p {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+p a {
+    text-align: center;
+}
+
+
+.burger-container {
+    padding-bottom: 10%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.burger-container ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+    /* list-style-position: inside; */
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.burger-container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.burger-container img {
+    width: 60%;
+    height: auto;
+}
+
+.burger-container p {
+    margin-top: 5%;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(auto-fill), minmax(250px, 1fr); */
+    gap: 30px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+figure {
+    text-align: center;
+    max-width: 200px;
+    /* margin: 0;
+    position: relative;
+    overflow: hidden; */
+}
+
+.gallery img {
+    width: 90%;
+    /* object-fit: cover; */
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    /* box-sizing: border-box; */
+}
+
+/* .gallery figure :nth-child(odd) {
+    margin-top: 30px;
+} */
